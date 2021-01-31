@@ -3,7 +3,7 @@
 }
 
 h1 {
-	color: blue;
+	color: black;
 	font-size: 1.75em;
 	text-align: center;
 }
@@ -15,7 +15,7 @@ h1 {
 .menu-entry {
 	margin: 3px;
   border: 1px solid black;
-  background-color: #8FC0D8;
+  background-color: gray;
 }
 
 /* I use float:right. Use position: absolute and right: 0px otherwise,
@@ -39,15 +39,15 @@ which is menu-entry. With float, I have to clear: right the following element*/
 }
 
 #chicken{
-	background-color: #8FD8AB;
+	background-color: red;
 }
 
 #beef{
-	background-color: #D3C786
+	background-color: blue;
 }
 
 #sushi{
-	background-color: #AC86D3
+	background-color: green;
 }
 
 /********** Large devices only **********/
