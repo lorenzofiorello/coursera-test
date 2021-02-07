@@ -1,0 +1,75 @@
+.navbar-brand > span{
+  color: black;
+}
+
+
+#collapsable-nav {
+  width: 100%;
+  text-align: center;
+}
+
+
+#nav-list, 
+#nav-list> li, 
+#burger-button, 
+#burger-button > .icon-bar {
+  border: solid 1px black;
+
+}
+
+#navbar{
+  background-color: green;
+  border: 0;
+}
+
+#nav-list {
+  /* Only bottom border to unordered list*/
+  border-width: 0 0 1px 0;
+}
+
+#nav-list > li{
+  background-color: white;
+  /* Bottom border to each list element, does not affect the last one*/
+    border-width: 1px 0 0 0;
+}
+
+/*Remove border for first element in list*/
+#nav-list > li:first-child{
+    border-width: 0 0 0 0;
+}
+
+
+
+#nav-list > li > a > span{
+  color: black;
+}
+
+#collapsable-nav {
+  border: 0
+}
+
+#collapsable-nav > ul {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+
+.menu-type {
+  background-color: green;
+  margin-bottom: 20px;
+  padding: 1em;
+}
+
+.menu-type > .title {
+  margin-top: -10px;
+  font-size: 1.5em;
+}
+
+.menu-type > .description {
+  margin-top: 10px;
+}
+
+ {
+  border: solid 1p;
+}
+
